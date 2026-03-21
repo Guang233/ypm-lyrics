@@ -1,0 +1,11 @@
+{
+  "name": "YPM Lyrics",
+  "description": "YesPlayMusic 顶栏歌词 — 在 GNOME 顶栏实时显示同步歌词",
+  "uuid": "ypm-lyrics@guang.local",
+  "settings-schema": "org.gnome.shell.extensions.ypm-lyrics",
+  "shell-version": [
+    "49"
+  ],
+  "version": 1,
+  "url": ""
+}

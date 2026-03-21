@@ -1,0 +1,61 @@
+/* ===== YPM Lyrics – 顶栏歌词样式 ===== */
+
+.ypm-lyrics-btn {
+    padding: 0 6px;
+}
+
+.ypm-lyrics-box {
+    spacing: 4px;
+}
+
+.ypm-lyrics-bin {
+    /* 裁剪滑动动画溢出 */
+}
+
+.ypm-lyrics-prefix {
+    font-weight: 500;
+    color: inherit;
+}
+
+.ypm-lyrics-cover {
+    margin-right: 2px;
+    border-radius: 2px;
+}
+
+.ypm-lyrics-label {
+    font-weight: 500;
+    color: inherit;
+    text-overflow: ellipsis;
+    max-width: 400px;
+}
+
+/* ── Popup Menu ── */
+.ypm-lyrics-menu-box {
+    spacing: 12px;
+    padding: 6px;
+}
+
+.ypm-lyrics-menu-cover-container {
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.ypm-lyrics-menu-cover {
+    /* _coverIcon goes inside here */
+}
+
+.ypm-lyrics-menu-text-box {
+    spacing: 4px;
+    justify-content: center;
+}
+
+.ypm-lyrics-menu-title {
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.ypm-lyrics-menu-artist {
+    font-weight: 400;
+    font-size: 0.9em;
+    opacity: 0.8;
+}

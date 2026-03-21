@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.ypm-lyrics"
+          path="/org/gnome/shell/extensions/ypm-lyrics/">
+
+    <key name="font-size" type="i">
+      <default>13</default>
+      <summary>歌词字体大小</summary>
+      <description>顶栏歌词的字体大小（像素）</description>
+    </key>
+
+    <key name="max-width" type="i">
+      <default>400</default>
+      <summary>歌词最大宽度</summary>
+      <description>歌词标签的最大宽度（像素），超出后文字截断</description>
+    </key>
+
+    <key name="position" type="s">
+      <default>'center'</default>
+      <summary>顶栏位置</summary>
+      <description>歌词在顶栏中的位置：left、center、right</description>
+    </key>
+
+    <key name="position-index" type="i">
+      <default>0</default>
+      <summary>位置索引</summary>
+      <description>在所选位置区域中的插入索引。center 区域：0=时钟左边，1=时钟右边</description>
+    </key>
+
+    <key name="show-translation" type="b">
+      <default>false</default>
+      <summary>显示翻译歌词</summary>
+      <description>是否在原歌词后面附加翻译歌词</description>
+    </key>
+
+    <key name="animation-duration" type="i">
+      <default>300</default>
+      <summary>动画时长</summary>
+      <description>歌词切换时的过渡动画时长（毫秒），0=禁用</description>
+    </key>
+
+    <key name="animation-type" type="s">
+      <default>'fade-slide'</default>
+      <summary>动画类型</summary>
+      <description>歌词切换动画类型：none、fade、slide、fade-slide、scale</description>
+    </key>
+
+    <key name="label-color" type="s">
+      <default>''</default>
+      <summary>自定义颜色</summary>
+      <description>歌词文字的自定义颜色（CSS 格式）。留空使用主题默认。</description>
+    </key>
+
+    <key name="hide-when-paused" type="b">
+      <default>false</default>
+      <summary>暂停时隐藏</summary>
+      <description>暂停或未播放时是否隐藏歌词</description>
+    </key>
+
+    <key name="no-lyrics-format" type="s">
+      <default>'title-artist'</default>
+      <summary>无歌词时显示内容</summary>
+      <description>无歌词的歌曲显示：title-artist、title、none</description>
+    </key>
+
+    <key name="prefix-type" type="s">
+      <default>'note'</default>
+      <summary>歌词前缀</summary>
+      <description>歌词前面显示的内容：none（无）、note（♪音符）、cover（专辑封面）</description>
+    </key>
+
+    <key name="paused-format" type="s">
+      <default>'custom'</default>
+      <summary>暂停时显示格式</summary>
+      <description>暂停时显示的内容：custom（自定文字）、lyrics（当前歌词）、title（曲名）、title-artist（曲名-作者）</description>
+    </key>
+
+    <key name="paused-text" type="s">
+      <default>'YPM Lyrics'</default>
+      <summary>暂停时的自定义文本</summary>
+      <description>当选择 custom 时显示的文本</description>
+    </key>
+
+    <key name="hide-when-closed" type="b">
+      <default>true</default>
+      <summary>未运行时隐藏</summary>
+      <description>当网易云音乐未运行时隐藏歌词面板</description>
+    </key>
+
+    <key name="closed-text" type="s">
+      <default>'YPM Lyrics'</default>
+      <summary>未运行时显示的文本</summary>
+      <description>未运行时显示的文本</description>
+    </key>
+
+    <key name="marquee-speed" type="i">
+      <default>50</default>
+      <summary>走马灯速度</summary>
+      <description>歌词横向滚动走马灯的速度（像素/每秒），0为禁用</description>
+    </key>
+
+  </schema>
+</schemalist>
